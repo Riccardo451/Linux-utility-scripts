@@ -1,0 +1,13 @@
+In un terminale:
+
+sudo chmod +x raspi-metrics.sh
+
+./raspi-metrics.sh 900 > /tmp/cpu-temp-2018-07-01.csv
+
+
+
+
+
+Avviare in un altro terminale:
+
+(sleep 30 && stress -c 4) & (sleep 600 && kill -9 $(pgrep stress))
