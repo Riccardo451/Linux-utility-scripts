@@ -1,0 +1,4 @@
+
+sudo nano /etc/pihole/whitelist.txt
+
+sudo nano /etc/pihole/regex.list
